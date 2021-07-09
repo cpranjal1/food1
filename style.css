@@ -2,21 +2,25 @@ h2{
     color:red;
 }
 h1{
-    color: yellow;
+    color: red;
     background-color: burlywood;
     width: 170px;
 }
 .orange-color{
-    color: black;
+    color: green;
 }
-section{
+.flexible
+{
     display: flex;
-    margin-bottom: 170;px;
+    margin-bottom: 170px;
+    image-orientation: from-image;
 }
+
 .half-width
 {
     width: 50%;
     padding-left: 4%;
+
 }
 .half-width img
 {
@@ -33,9 +37,41 @@ section{
     
 
 }
-.about-me{
+.bg
+{
     background-image: url(images/7.png);
-    background-repeat: no-repeat;
-    background-position-x:center;
-    background-size: cover;
+    display: flex;
+    
+
+}
+
+.ok
+{
+display: flex;
+margin-bottom: 100px;
+width: fit-content;
+}
+.recipie-title
+{
+    border: 20px;
+}
+.kkr
+{
+    padding-right: 10 px;
+box-shadow: 10px 10px 10px 10px gray;
+
+}
+footer h2
+{
+    text-align: center;
+    background-color: gray;
+}
+
+.last-color-yellow
+{
+    color: yellow;
+}
+last-color-black
+{
+    color: black;
 }
